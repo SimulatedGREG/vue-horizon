@@ -1,0 +1,36 @@
+2016-10-14T05:09:16.250616000 0.348780s notice: Recursively removing directory /Users/gregholguin/Documents/Projects/Personal/vue-horizon/example/rethinkdb_data/tmp
+2016-10-14T05:09:16.255563000 0.353733s notice: Initializing directory /Users/gregholguin/Documents/Projects/Personal/vue-horizon/example/rethinkdb_data
+2016-10-14T05:09:16.255726000 0.353889s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/gregholguin/Documents/Projects/Personal/vue-horizon/example/rethinkdb_data' did not already exist or is empty.)
+2016-10-14T05:09:16.256028000 0.354191s notice: Running rethinkdb 2.3.5 (CLANG 8.0.0 (clang-800.0.38))...
+2016-10-14T05:09:16.271605000 0.369769s notice: Running on Darwin 16.0.0 x86_64
+2016-10-14T05:09:16.271673000 0.369835s notice: Loading data from directory /Users/gregholguin/Documents/Projects/Personal/vue-horizon/example/rethinkdb_data
+2016-10-14T05:09:16.355266000 0.453391s info: Cache size is set to 200 MB
+2016-10-14T05:09:16.355285000 0.453409s warn: Cache size does not leave much memory for server and query overhead (available memory: 1207 MB).
+2016-10-14T05:09:16.358746000 0.456871s notice: Listening for intracluster connections on port 58017
+2016-10-14T05:09:16.363818000 0.461942s notice: Listening for client driver connections on port 58018
+2016-10-14T05:09:16.364016000 0.462141s notice: Listening for administrative HTTP connections on port 58019
+2016-10-14T05:09:16.364052000 0.462177s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-10-14T05:09:16.364081000 0.462206s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-10-14T05:09:16.364084000 0.462208s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-10-14T05:09:16.364092000 0.462217s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-10-14T05:09:16.364110000 0.462234s notice: Server ready, "Gregs_MacBook_Pro_local_tuj" 22a84cb5-4412-43a7-937f-15429e52810c
+2016-10-14T05:09:16.928228000 1.026353s info: Table cd480a5e-18c6-40aa-b0d9-3042926572c8: Starting a new Raft election for term 1.
+2016-10-14T05:09:16.928829000 1.026953s info: Table cd480a5e-18c6-40aa-b0d9-3042926572c8: Added replica on this server.
+2016-10-14T05:09:16.928876000 1.027001s info: Table f4ff9ad7-5b13-4cc2-a6b6-cf7f9f04d786: Starting a new Raft election for term 1.
+2016-10-14T05:09:16.929556000 1.027681s info: Table f4ff9ad7-5b13-4cc2-a6b6-cf7f9f04d786: Added replica on this server.
+2016-10-14T05:09:16.931466000 1.029591s info: Table 7657c11d-412e-43d2-ba1c-dddd1d857356: Starting a new Raft election for term 1.
+2016-10-14T05:09:16.932264000 1.030388s info: Table 7657c11d-412e-43d2-ba1c-dddd1d857356: Added replica on this server.
+2016-10-14T05:09:16.943857000 1.041983s info: Table cd480a5e-18c6-40aa-b0d9-3042926572c8: This server is Raft leader for term 1. Latest log index is 0.
+2016-10-14T05:09:16.944006000 1.042130s info: Table f4ff9ad7-5b13-4cc2-a6b6-cf7f9f04d786: This server is Raft leader for term 1. Latest log index is 0.
+2016-10-14T05:09:16.944068000 1.042193s info: Table 7657c11d-412e-43d2-ba1c-dddd1d857356: This server is Raft leader for term 1. Latest log index is 0.
+2016-10-14T05:09:17.623437000 1.721525s info: Table b5974ea0-8038-4f78-837c-a61f4c890494: Starting a new Raft election for term 1.
+2016-10-14T05:09:17.623708000 1.721796s info: Table b5974ea0-8038-4f78-837c-a61f4c890494: Added replica on this server.
+2016-10-14T05:09:17.638496000 1.736584s info: Table b5974ea0-8038-4f78-837c-a61f4c890494: This server is Raft leader for term 1. Latest log index is 0.
+2016-10-14T05:21:15.082127000 719.153120s info: Table 98fadce9-a022-4d3b-8e5f-51890489230f: Starting a new Raft election for term 1.
+2016-10-14T05:21:15.082279000 719.153272s info: Table 98fadce9-a022-4d3b-8e5f-51890489230f: Added replica on this server.
+2016-10-14T05:21:15.095127000 719.166120s info: Table 98fadce9-a022-4d3b-8e5f-51890489230f: This server is Raft leader for term 1. Latest log index is 0.
+2016-10-14T05:35:19.702741000 1563.742204s notice: Server got SIGINT from pid 15830, uid 501; shutting down...
+2016-10-14T05:35:19.702950000 1563.742413s notice: Shutting down client connections...
+2016-10-14T05:35:19.724804000 1563.764267s notice: All client connections closed.
+2016-10-14T05:35:19.724817000 1563.764280s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-10-14T05:35:19.758448000 1563.797911s notice: Storage engine shut down.
