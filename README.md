@@ -5,7 +5,9 @@
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
 ## Installing
-Coming soon the NPM...
+```bash
+npm install vue-horizon --save
+```
 
 Include using webpack or browserify
 
