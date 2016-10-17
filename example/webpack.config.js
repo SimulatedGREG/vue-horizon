@@ -23,6 +23,10 @@ module.exports = {
         exclude: /node_modules/
       },
       {
+        test: /\.css$/,
+        loader: 'style!css'
+      },
+      {
         test: /\.(png|jpg|gif|svg)$/,
         loader: 'file',
         query: {
