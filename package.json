@@ -1,6 +1,6 @@
 {
   "name": "vue-horizon",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "The vue plugin that wraps @horizon/client APIs to the Vue object and more.",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,8 @@
   },
   "keywords": [
     "vue",
+    "plugin",
+    "wrapper",
     "horizon",
     "api",
     "client",
