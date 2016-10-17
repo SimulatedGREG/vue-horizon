@@ -16,7 +16,7 @@ Then import using webpack or browserify
 import Vue from 'vue'
 import VueHorizon from 'vue-horizon'
 
-Vue.use(VueHorizon, { host: '127.0.0.1' })
+Vue.use(VueHorizon, { host: '127.0.0.1:8181' })
 ```
 *The use of a module loader is required in order to pass the needed Horizon contructor arguments.*
 
@@ -37,7 +37,7 @@ Within the Horizon contructor arguements let's pass in an array of string models
 **main.js**
 ```js
   Vue.use(VueHorizon, {
-    host: '127.0.0.1',
+    host: '127.0.0.1:8181',
     models: ['messages', 'members']
   })
 ```
