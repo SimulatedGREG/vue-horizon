@@ -18,12 +18,20 @@ module.exports = {
       })
     }
 
-    horizon.onReady(() => {
+    // Generic log messages when not in production
+    horizon.onReady(function () {
       if (process.env.NODE_ENV !== 'production') {
         console.log('[vue-horizon] Ready. Connected to ' + opts.host)
       }
     })
 
+    horizon.onDisconnected(function () {
+      if (process.env.NODE_ENV !== 'production') {
+        console.log('[vue-horizon] Disconnected from host.')
+      }
+    })
+
+    // Connect to host
     horizon.connect()
   }
 }
